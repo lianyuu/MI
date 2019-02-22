@@ -1,0 +1,340 @@
+@import "base.css";
+
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/* 行内元素 */
+.logo a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition: color linear .5s;
+}
+.navList li a:hover{
+    color: #16b0bc;
+}
+/* nav */
+.banner {
+    width: 100%;
+    height: 786px;
+    background: #cccccc;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/* banner */
+.art{
+    width: 100%;
+    height: 604px;
+    padding: 70px 0;
+    /*background: #cccccc;*/
+}
+.art .artContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: white;*/
+}
+.artContent h1{
+    height: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+.artContent p.desc{
+    text-align: center;
+    font-size: 16px;
+    color: #5e7387;
+}
+.artContent .swiper{
+    width: 100%;
+    height: 476px;
+    margin-top: 50px;
+}
+.swiper .artLeft,.swiper .artRight{
+    float: left;
+    width: 75px;
+    height: 100%;
+    text-align: center;
+    line-height: 476px;
+}
+.swiper .artLeft p ,.swiper .artRight p {
+    display: block;
+    margin: 223px auto;
+    width: 30px;
+    height: 30px;
+    background: #a3afb7;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 15px;
+}
+.swiper .artMiddle{
+    float: left;
+    width: 1020px;
+    height: 100%;
+    overflow: hidden;
+    /*background: bisque;*/
+}
+.artMiddle .middleContent{
+    width: 1400px;
+    height: 100%;
+}
+.middleContent .middleInfo{
+    float: left;
+    width: 320px;
+    height: 100%;
+    margin-right: 30px;
+    background: white;
+}
+.middleContent .middleInfo a img {
+    margin-left: 10px;
+/*    width: 320px;
+    height: 320px;*/
+    border-radius: 160px;
+}
+.middleContent .middleInfo h4{
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+}
+.middleContent .middleInfo h4 {
+    text-align: center;
+    width: 100%;
+    height: 36px;
+}
+.middleInfo .info1 {
+    width: 100%;
+    height: 40px;
+    background: #f96868;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* art */
+.flower{
+    width: 100%;
+    height: 750px;
+    background: #f5f5f5;
+}
+.flowerContent{
+    width: 1170px;
+    height: 610px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.flowerContent h1{
+    height: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+.flowerList{
+    width: 100%;
+    height: 560px;
+}
+.flowerList .flowerItem{
+    float: left;
+    width: 570px;
+    height: 110px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.flowerItem .itemThumb{
+    float: left;
+    width: 160px;
+    height: 96px;
+}
+.itemThumb a ,.itemThumb a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.flowerItem .itemInfo{
+    float: right;
+    width: 380px;
+    height: 100%;
+    font-size: 14px;
+    color: #76838f;
+}
+.itemInfo h2{
+    width: 100%;
+    height: 30px;
+}
+.itemInfo h2 a{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all ease .5s;
+}
+.itemInfo h2 a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+}
+.itemInfo p.infoDesc{
+    padding: 10px 0;
+    height: 2.5em;
+    overflow: hidden;
+    position: relative;
+}
+.itemInfo p.infoDesc::after{
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.flowerList .flowerItem:nth-of-type(even){
+    margin-right: 0;
+}
+/* flower */
+
+.third {
+    width: 100%;
+    height: 842px;
+}
+
+.thirdContent {
+    width: 1170px;
+    height: 100%;
+    padding: 70px 0;
+    margin: 0 auto;
+    background: white;
+}
+.thirdContent h3{
+    height: 42px;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.thirdContent .middle p{
+    font-size: 18px;
+}
+/*.top{
+    width: 100%;
+    height: 42px;
+    margin: 0 auto;
+}*/
+/*.top h3{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 42px;
+}*/
+
+.middle{
+    width: 1080px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.middle p{
+    font-family: "Microsoft YaHei UI", sans-serif;
+    text-align: center;
+    line-height: 40px;
+}
+.third .thirdContent .thirdbottom{
+    width: 530px;
+    height: 339px;
+    margin: 0 auto;
+}
+/* third */
+
+.span{
+    width: 100%;
+    height: 20px;
+    border-top: 1px solid #cccccc;
+}
+
+.bottom{
+    width: 100%;
+    height: 132px;
+    padding: 20px 0;
+    background: #f5f5f5;
+}
+.bottom .bottomContent{
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bottom .bottomContent .sign{
+    float: left;
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+}
+/*
+.bottom .bottomContent .sign .signInfo{
+    float: left;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+}
+*/
+.bottom .bottomContent .sign img{
+    width: 36px;
+    height: 26px;
+    margin-right: 10px;
+}
+.bottom .bottomContent p,.bottom .bottomContent a{
+    text-align: center;
+    line-height: 25px;
+    color: #5e7387;
+    font-size: 16px;
+}
+
+.bottom .bottomContent p a:hover{
+    color: #16b0bc;
+    text-decoration: underline;
+    transition: all ease .5s;
+}
+
+/* bottom */
