@@ -3,7 +3,7 @@
 .nav {
     width: 100%;
     height: 79px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #333;
     background: #ffffff;
     position: fixed;
     left: 0;
@@ -83,7 +83,8 @@
     margin: auto;
     /*margin: 0 auto;*/
 }
-.imgBox>img:hover{
+img:hover{
+    transform: scale(1.5);
 }
 .art .wordBox:hover{
     background: rgba(0,0,0,0.3);
